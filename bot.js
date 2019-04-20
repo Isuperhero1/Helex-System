@@ -34,8 +34,8 @@ var ti={}
 ,attentions={};
 
 client.on('ready', function(){
-    var setGame = ['&help'];
-        client.user.setGame(setGame,`http://www.twitch.tv/barontube`);
+var setGame = ['&help'];
+client.user.setGame(setGame,`http://www.twitch.tv/barontube`);
     }, ms);
     console.log(` ????????? |> Name: ${client.user.username}`);
  console.log(` ????????? |> Servers: ${client.guilds.size}`);
