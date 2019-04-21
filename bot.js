@@ -34,7 +34,7 @@ var ti={}
 ,attentions={};
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Logged in as {client.user.tag}`);
 client.user.setGame(`Moscow .`,"Mosc Every..")
     console.log(` ????????? |> Name: ${client.user.username}`);
  console.log(` ????????? |> Servers: ${client.guilds.size}`);
