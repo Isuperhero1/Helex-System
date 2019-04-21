@@ -33,9 +33,8 @@ var ti={}
 ,spee={}
 ,attentions={};
 
-bot.on("ready", () => {
-  console.log("Ready");
-  bot.user.setGame("Type &help");
+client.user.setPresence({ game: { name: 'with depression' }, status: 'online' });
+bot.user.setGame('with depression', 'https://www.twitch.tv/monstercat');
     console.log(` ????????? |> Name: ${client.user.username}`);
  console.log(` ????????? |> Servers: ${client.guilds.size}`);
  console.log(` ???????????????????? |> Members: ${client.users.size}`);
