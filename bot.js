@@ -45,7 +45,7 @@ client.user.setStatus("dnd")
 });
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
-    let pages = [`**
+    let pages = [`
         ***__General orders__***
 **
 ${prefix}allbots/لعرض جميع البوتات الي بالسيرفر
