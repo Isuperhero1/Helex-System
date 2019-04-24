@@ -70,8 +70,8 @@ ${prefix}members/عرض لك عدد كل حالات الاشخاص وعدد ال
 ${prefix}id/معلومات عنك
 ${prefix}embed/يكرر الي تقولو بشكل حلو
 ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
-  `
-,`
+**
+`,`
         ***__Administrative Orders__***
 **
 ${prefix}move @user /  لسحب الشخص الى روومك
