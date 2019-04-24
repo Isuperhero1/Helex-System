@@ -57,10 +57,8 @@ ${prefix}invinfo <invitelink here> / لمعلومات عن الدعوه
  مثال : invinfo m82n8P
 ${prefix}invite-codes/يعرض لك روابط الانفايتات حكك في السيرفر 
 ${prefix}cal/اله حاسبة
-${prefix}trans <language> <any thing>/يترجم لك الي تبيه من اي لغة
 ${prefix}short/يختصر لك رابط كبير الى رابط صغير
 ${prefix}tag/يكتب لك الكلمة بشكل جميل وكبير
-${prefix}google/للبحث في قوقل عن طريق الدسكورد
 ${prefix}perms/يعرض لك برمشناتك بالسيرفر
 ${prefix}z5rf/يزخرف لك كلمة او جملة
 ${prefix}rooms/يعرض لك كل الرومات الي بالسيرفر مع عددها
@@ -70,14 +68,8 @@ ${prefix}say/يكرر الكلام الي تكتبو
 ${prefix}image/صورة السيرفر
 ${prefix}members/عرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص
 ${prefix}id/معلومات عنك
-${prefix}bans / عدد الاشخاص المبندة 
-${prefix}avatar/صورتك او صورة الي تمنشنو
 ${prefix}embed/يكرر الي تقولو بشكل حلو
 ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
-${prefix}inv/لدعوة البوت الى سيرفرك
-${prefix}support/سيرفر الدعم
-${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
-**
   `
 ,`
         ***__Administrative Orders__***
@@ -109,32 +101,18 @@ ${prefix}temp / لانشاء روم مؤقت
 ${prefix}delet <name> / مسح الشات او الرووم فويس
 ${prefix}make <number> / ينشا لك الوان مع كم الوان تبي
 ${prefix}color <number> / لختيار لون
-${prefix}deletecolors <number> / لحذف الالوان
 **
    `,`
-        ***__Music orders__***
-**
-${prefix}play / لتشغيل أغنية برآبط أو بأسم
-${prefix}skip / لتجآوز الأغنية الحآلية
-${prefix}pause / إيقآف الأغنية مؤقتا
-${prefix}resume / لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-${prefix}vol / لتغيير درجة الصوت 100 - 0
-${prefix}stop / لإخرآج البوت من الروم
-${prefix}np / لمعرفة الأغنية المشغلة حآليا
-${prefix}queue / لمعرفة قآئمة التشغيل
-**
         ***__Games orders__***
  **       
 ${prefix}rps / حجر ورقة مقص
 ${prefix}speed / اسرع كتابة
 ${prefix}quas / اسئلة عامة
-${prefix}نكت / نكت 
 ${prefix}لعبة فكك / فكك
 ${prefix}عواصم عشوائي/عواصم
 ${prefix}لعبة كت تويت / كت تويت
 ${prefix}roll <number> / قرعة
 ${prefix}لو خيروك بطريقة حلوة / لو خيروك
-${prefix}لعبة مريم / مريم
 ${prefix}فوائد ونصائح  / هل تعلم
 ${prefix}يعطيك عقابات قاسية / عقاب 
 =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.
