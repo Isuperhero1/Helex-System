@@ -768,13 +768,6 @@ message.channel.send(`? | Done ... The Broadcast Message Has Been Sent For ${mes
 message.guild.members.forEach(m => {
 var bc = new
 Discord.RichEmbed()
-.setColor('RANDOM')
-.setTitle('Broadcast')
-.addField('Server', message.guild.name)
-.addField('Sender', message.author.username)
-.addField('Message', args)
-.setThumbnail(message.author.avatarURL)
-.setFooter(copy, client.user.avatarURL);
 m.send({ embed: bc })
 msg.delete();
 })
