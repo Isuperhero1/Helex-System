@@ -767,7 +767,7 @@ reaction1.on("collect", r => {
 message.channel.send(`? | Done ... The Broadcast Message Has Been Sent For ${message.guild.members.size} Members`).then(m => m.delete(5000));
 message.guild.members.forEach(m => {
 var bc = new
-Discord.RichEmbed()
+.addField('Message', args)
 m.send({ embed: bc })
 msg.delete();
 })
