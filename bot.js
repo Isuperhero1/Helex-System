@@ -746,9 +746,9 @@ message.channel.send("``لا تستطيع سحب "+ message.mentions.members.fir
 } else {
 message.react("?")
  }}});
- client.on("message", message => {//bc1
+ client.on("message", message => {//bc
 
-            if (message.content.startsWith(prefix + "bc1")) {
+            if (message.content.startsWith(prefix + "bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' '); 
@@ -759,38 +759,6 @@ message.react("?")
  message.delete(); 
 };     
 });
-
-
-client.on("message", message => {//bc2
-
-            if (message.content.startsWith(prefix + "bc2")) {
-                         if (!message.member.hasPermission("ADMINISTRATOR"))  return;
-  let args = message.content.split(" ").slice(1);
-  var argresult = args.join(' '); 
-  message.guild.members.filter(m => m.presence.status !== 'online').forEach(m => {
- m.send(`${argresult}\n  `);
-})
- message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'online').size}\` : عدد الاعضاء المستلمين`); 
- message.delete(); 
-};     
-});
-
-client.on("message", message => {//bc3
-
-            if (message.content.startsWith(prefix + "bc3")) {
-                         if (!message.member.hasPermission("ADMINISTRATOR"))  return;
-  let args = message.content.split(" ").slice(1);
-  var argresult = args.join(' '); 
-  message.guild.members.filter(m => m.presence.status !== 'offline').forEach(m => {
- m.send(`${argresult}\n  `);
-})
- message.channel.send(`\`${message.guild.members.filter(m => m.presence.status !== 'offline').size}\` : عدد الاعضاء المستلمين`); 
- message.delete(); 
-};     
-});
-
-
-
 client.on('message' , message => {//bcrole
   if(message.author.bot) return;
   if(message.content.startsWith(prefix + "bcrole")) {
