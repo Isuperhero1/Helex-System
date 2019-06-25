@@ -76,7 +76,6 @@ ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي اي�
 **
 ${prefix}move @user /  لسحب الشخص الى روومك
 ${prefix}bc / رسالة جماعية الى كل اعضاء السيرفر
-${prefix}bk / رسالة جماعيه مع
 ${prefix}rolebc <everyone or @role> / راسال رساله جماعيه لرتبه محدده
 ${prefix}role @user <rank> / لأعطاء رتبة لعضو معين
 ${prefix}roleremove @user <rank> / لازالة الرتبة من شخص معين
@@ -759,17 +758,17 @@ message.react("?")
  message.delete(); 
 };     
 });
-client.on('message' , message => {//bcrole
+client.on('message' , message => {//rolebc
   if(message.author.bot) return;
-  if(message.content.startsWith(prefix + "bcrole")) {
+  if(message.content.startsWith(prefix + "rolebc")) {
     let args = message.content.split(" ").slice(1);
 
     if(!args[0]) {
-      message.channel.send("قم بمنشنة الرتبة | *bcrole @everyone رساله");
+      message.channel.send("قم بمنشنة الرتبة | *rolebc @everyone رساله");
         return;
     }
     if(!args[1]) {
-      message.channel.send("قم بمنشنة الرتبة | *bcrole @everyone رساله");
+      message.channel.send("قم بمنشنة الرتبة | *rolebc @everyone رساله");
         return;
     }
 
